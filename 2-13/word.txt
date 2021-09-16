@@ -1,0 +1,12 @@
+PostgreSQL・Oracle SQL
+オープンソースのリレーショナルデータベース管理システム（RDBMS）
+
+TortoiseGit・TortoiseSVN
+TortoiseGitとはGitをより扱いやすくするために開発されたWindows用ソフトウェア
+TortoiseSVNとはSubversionのクライアントフロントエンド
+
+外部設計・内部設計
+
+外部設計:要件定義をもとにユーザーインターフェースを設計する工程
+
+内部設計:機能やプログラムの仕様や処理内容などを設計し、外部設計と実装の間の工程
