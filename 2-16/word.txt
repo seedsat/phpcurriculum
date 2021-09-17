@@ -1,0 +1,13 @@
+CakePHPの2系・3系の違い
+composerが標準対応になりQueryBuilderの書き方がシンプルになった
+
+LAMP
+L → Linux
+A → Apache
+M → MySQL
+P → PHP
+の頭文字をとったものでWebアプリケーションを開発する環境である
+
+AWS
+AWSとはAmazon Web Servicesの略で、
+Amazonが提供している100以上のクラウドコンピューティングサービスの総称
