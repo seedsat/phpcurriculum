@@ -1,16 +1,18 @@
 <?php
-  $sum = 0;
-  for($i = 1; $sum < 40; $i ++) {
-    $n = mt_rand(1, 6);
-    $sum += $n;
-    echo "{$i}回目＝{$n}<br>";
+
+  $x = 0;
+  $i = 0;
+  while($x < 40) {
+    $i++;
+    $s = mt_rand(1,6);
+    echo $i . '回目=' . $s . '<br>';
+    $x += $s;
   }
-  $total = $i - 1;
-  echo "合計{$total}回でゴールしました";
+  echo "合計{$i}回でゴールしました<br>";
 
-  echo '<br>';
-
+  date_default_timezone_set('Asia/Tokyo');
   $time = date('H');
+  echo "今{$time}時台です<br>";
   if($time >= 5 && $time < 12) {
     echo 'おはようございます';
   } elseif ($time >= 12 && $time < 18) {
