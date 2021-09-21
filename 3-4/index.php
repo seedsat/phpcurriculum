@@ -8,6 +8,7 @@
   $stmt = $get_data->pdo->prepare($sql);
   $stmt->execute();
   $results = $stmt->fetchAll();
+  $category = [1 => '食事', 2 => '旅行', 3 => 'その他'];
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +48,7 @@
         <tr>
           <td><?php echo $value['id']; ?></td>
           <td><?php echo $value['title']; ?></td>
-          <td><?php echo $value['category_no']; ?></td>
+          <td><?php echo $category[$value['category_no']]; ?></td>
           <td><?php echo $value['comment']; ?></td>
           <td><?php echo $value['created']; ?></td>
         </tr>
