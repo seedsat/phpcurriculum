@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+}
+
+.signup {
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;;
+    background-color: rgb(60, 148, 92);
+}
+
+.input {
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+}
+
+#stock {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+}
+
+.submit {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    color: #fff;;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.logout {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    color: #fff;;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.stock_list {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: lightgrey;
+}
+
+button {
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
